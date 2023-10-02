@@ -1,0 +1,14 @@
+{
+	"task.autoDetect": "off",
+	"cmake.generator": "Ninja",
+	"cmake.sourceDirectory": "${workspaceFolder}",
+	"cmake.buildDirectory": "${workspaceFolder}/Build",
+	"cmake.additionalKits": ["${workspaceFolder}/cmake-kits.json"],
+	"files.exclude": {
+		"**/*.o": true
+	},
+	"C_Cpp.loggingLevel": "Debug",
+	"files.associations": {
+		"iostream": "cpp"
+	}
+}
